@@ -40,6 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exercise1\Exercise1.cs" />
+    <Compile Include="Exercise2\Exercise2.cs" />
+    <Compile Include="Exercise2\Tree\Country.cs" />
+    <Compile Include="Exercise2\Tree\TreeDriver.cs" />
+    <Compile Include="Exercise2\Tree\TreeNode.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
