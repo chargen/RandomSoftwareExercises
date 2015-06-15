@@ -12,7 +12,7 @@ namespace Exercises.Exercise3
 
         public Exercise3()
         {
-            Console.WriteLine("Exercise 1:");
+            Console.WriteLine("Exercise 3:");
             Console.WriteLine("Return the 4th largest element in an unsorted array");
             values = PopulateValues();
         }
