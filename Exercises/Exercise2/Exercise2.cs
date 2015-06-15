@@ -13,6 +13,7 @@ namespace Exercises.Exercise2
     {
         private TreeNode root = null;
         private TreeNode modRoot = null;
+        IList<TreeNode> unorderedTreesReadIn = new List<TreeNode>();
         private StringBuilder sb = new StringBuilder();
         private bool done = false;
         
@@ -36,14 +37,48 @@ namespace Exercises.Exercise2
         {
             ShowTree(root);
             WriteToFile();
-            IList<string> fileContents = ReadFile();
-            BuildTree(fileContents);
+            ReadFile();
+
+            //modRoot = unorderedTreesReadIn[0];
+            //curLevel = modRoot.level+1;
+            //unorderedTreesReadIn.Remove(modRoot);
+            //BuildTree(modRoot);
+        }
+        
+        private IList<TreeNode> curRow = new List<TreeNode>();
+        private IList<TreeNode> nextRow = new List<TreeNode>();
+        private int curLevel = 1;
+        private void BuildTree(TreeNode tn)
+        {            
+            int curRowCtr = 0;
+
+            while(unorderedTreesReadIn.Count()>0)
+            {
+                GetAllNodesOnThisLevel();
+                
+                while(curRow.Count()>0)
+                {
+                    TreeNode curChildNode = curRow[curRowCtr];
+                    tn.AddNode(curChildNode);
+                    nextRow.Add(curChildNode);
+                    curRow.Remove(curChildNode);
+                    curRowCtr++;
+                }
+            }
         }
 
-        private void BuildTree(IList<string> fileContents)
+        private void GetAllNodesOnThisLevel()
         {
+            foreach(TreeNode tn in unorderedTreesReadIn)
+            {
+                if(tn.level == curLevel)
+                    curRow.Add(tn);
+            }
 
+            foreach(TreeNode tn in curRow)
+                unorderedTreesReadIn.Remove(tn);            
         }
+
 
         private TreeNode GetNode(string line)
         {
@@ -60,10 +95,9 @@ namespace Exercises.Exercise2
             return tn;
         }
         
-        private IList<string> ReadFile()
+        private void ReadFile()
         {         
-            IList<string> lines = new List<string>();
-            string line = string.Empty;
+            TreeNode tn = null;
             StreamReader sr = null;
             string path = Environment.CurrentDirectory + "\\tree.txt";
 
@@ -73,9 +107,8 @@ namespace Exercises.Exercise2
 
                 while(sr.Peek() != -1)
                 {
-                    line = sr.ReadLine();
-                    line = line.Trim(',');
-                    lines.Add(line);
+                    tn = GetNode(sr.ReadLine());
+                    unorderedTreesReadIn.Add(tn);
                 }
             }
             catch (Exception e)
@@ -91,8 +124,6 @@ namespace Exercises.Exercise2
                     sr = null;
                 }
             }
-
-            return lines;
         }
 
         private void ShowTree(TreeNode root)
@@ -137,15 +168,15 @@ namespace Exercises.Exercise2
         }
         private string AddDepthAndValue(TreeNode tn)
         {
-            int ctr = 0;
+            //int ctr = 0;
             string output = string.Empty;
 
-            while(ctr<tn.level)
-            {
-                output += ",";
+            //while(ctr<tn.level)
+            //{
+            //    output += ",";
 
-                ctr++;
-            }
+            //    ctr++;
+            //}
 
             output += tn.GetNodeValue() + ", Level: " + tn.level.ToString();
 
