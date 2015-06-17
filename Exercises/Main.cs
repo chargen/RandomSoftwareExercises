@@ -10,11 +10,12 @@ namespace Exercises
     {
         public void Run()
         {
-            //RunExercise1();
-            //RunExercise2();
-            //RunExercise3();
-            //RunExercise4();
+            RunExercise1();
+            //RunExercise2();  //TODO complete
+            RunExercise3();
+            RunExercise4();
             RunExercise5();
+            RunExercise6();
         }
 
         private void RunExercise1()
@@ -41,6 +42,11 @@ namespace Exercises
         {
             Exercise5.Exercise5 e5 = new Exercise5.Exercise5();
             e5.Run();
+        }
+        private void RunExercise6()
+        {
+            Exercise6.Exercise6 e6 = new Exercise6.Exercise6();
+            e6.Run();
         }
     }
 }
