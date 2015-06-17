@@ -38,7 +38,6 @@ namespace Exercises.Exercise8
             Console.WriteLine("There are " + ctr.ToString() + " 1 bits in this number");
 
             Console.WriteLine("Exercise 8 is completed!");
-        }
-            
+        }            
     }
 }
