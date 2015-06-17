@@ -16,6 +16,7 @@ namespace Exercises
             RunExercise4();
             RunExercise5();
             RunExercise6();
+            RunExercise7();
         }
 
         private void RunExercise1()
@@ -47,6 +48,11 @@ namespace Exercises
         {
             Exercise6.Exercise6 e6 = new Exercise6.Exercise6();
             e6.Run();
+        }
+        private void RunExercise7()
+        {
+            Exercise7.Exercise7 e7 = new Exercise7.Exercise7();
+            e7.Run();
         }
     }
 }

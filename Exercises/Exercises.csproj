@@ -47,6 +47,7 @@
     <Compile Include="Exercise2\Tree\TreeDriver.cs" />
     <Compile Include="Exercise2\Tree\TreeNode.cs" />
     <Compile Include="Exercise4\LinkedList\LinkedList.cs" />
+    <Compile Include="Exercise7\Exercise7.cs" />
     <Compile Include="Exercise6\Exercise6.cs" />
     <Compile Include="Exercise5\Exercise5.cs" />
     <Compile Include="Main.cs" />
