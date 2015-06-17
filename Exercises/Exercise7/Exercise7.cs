@@ -31,7 +31,7 @@ namespace Exercises.Exercise7
             Console.WriteLine(sentence);
             ReverseSentence2();
 
-            Console.WriteLine("Exercise 6 is completed!");
+            Console.WriteLine("Exercise 7 is completed!");
         }
         
         private void ReverseSentence2()
