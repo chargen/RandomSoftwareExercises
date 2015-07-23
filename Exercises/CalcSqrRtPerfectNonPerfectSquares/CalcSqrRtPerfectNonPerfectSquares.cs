@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace Exercises.Exercise5
 {
     //Perfect square is the square of two equal integers (i.e. 3*3 = 9).  
-    public class Exercise5
+    public class CalcSqrRtPerfectNonPerfectSquares
     {
-        public Exercise5()
+        public CalcSqrRtPerfectNonPerfectSquares()
         {
             Console.WriteLine("Exercise 5:");
             Console.WriteLine("Algorithm to compute square root that handles perfect and non-perfect squares");            

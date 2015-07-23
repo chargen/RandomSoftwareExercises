@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise6
 { 
-    public class Exercise6
+    public class ImplCustomSubstring
     {
         private string valueToSearch = "123456789";
         private string srchValue = "456";
 
-        public Exercise6()
+        public ImplCustomSubstring()
         {
             Console.WriteLine("Exercise 6:");
             Console.WriteLine("Implement custom substring");            

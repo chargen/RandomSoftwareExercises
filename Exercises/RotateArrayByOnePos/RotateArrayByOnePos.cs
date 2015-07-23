@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise1
 {
-    public class Exercise1
+    public class RotateArrayByOnePos
     {
         private IList<int> values = null;
         private IList<int> modifiedValues = null;
 
-        public Exercise1()
+        public RotateArrayByOnePos()
         {
             Console.WriteLine("Exercise 1:");
             Console.WriteLine("Rotate an array of ints by 1");

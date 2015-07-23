@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise3
 {
-    public class Exercise3
+    public class ReturnNthLargestElementFromArray
     {
         private IList<int> values = null;
 
-        public Exercise3()
+        public ReturnNthLargestElementFromArray()
         {
             Console.WriteLine("Exercise 3:");
             Console.WriteLine("Return the 4th largest element in an unsorted array");

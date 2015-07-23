@@ -9,7 +9,7 @@ using System.IO;
 
 namespace Exercises.Exercise2
 {
-    public class Exercise2
+    public class SerializeTreeReconstruct
     {
         private TreeNode root = null;
         private TreeNode modRoot = null;
@@ -17,7 +17,7 @@ namespace Exercises.Exercise2
         private StringBuilder sb = new StringBuilder();
         private bool done = false;
         
-        public Exercise2()
+        public SerializeTreeReconstruct()
         {
             Console.WriteLine("Exercise 2:");
             Console.WriteLine("Serialize a tree so it can be reconstructed");

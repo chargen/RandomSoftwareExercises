@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise7
 { 
-    public class Exercise7
+    public class RvsWordsInSentence
     {
         private string sentence = "A very long sentence that doesn't really say anything about much.  It has to be understood and if reversed, I am not sure it will.";
         private string reversedSentence = string.Empty;
 
-        public Exercise7()
+        public RvsWordsInSentence()
         {
             Console.WriteLine("Exercise 7:");
             Console.WriteLine("Reverse the words in the sentence");            

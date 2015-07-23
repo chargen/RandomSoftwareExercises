@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise9
 { 
-    public class Exercise9
+    public class FindLgestSeqDescIncrInLargerSeq
     {
         //TODO - not complete...still need to handle smaller increasing sub rows as well as being able to
         //handle longer sub increasing rows in even longer arrays
         private int[] values = {10, 3, 7, 9, 0, 15};
         private IList<int> increasingValues = new List<int>();
 
-        public Exercise9()
+        public FindLgestSeqDescIncrInLargerSeq()
         {
             Console.WriteLine("Exercise 9:");
             Console.WriteLine("Given an array of integers. Find the largest increasing sub sequence of integers in the array");            

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Exercises.Exercise8
 { 
-    public class Exercise8
+    public class CountNumOneBitsInInteger
     {
         private int numberToCount1Bits = 82753;
 
-        public Exercise8()
+        public CountNumOneBitsInInteger()
         {
             Console.WriteLine("Exercise 8:");
             Console.WriteLine("Counting the number of 1 bits in the binary representation of a given integer");            

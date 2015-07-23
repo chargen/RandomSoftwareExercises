@@ -9,11 +9,11 @@ using Exercises.Exercise4.LinkedList;
 
 namespace Exercises.Exercise4
 {
-    public class Exercise4
+    public class ReverseLinkedList
     {
         private Exercises.Exercise4.LinkedList.LinkedList firstNode = null;
 
-        public Exercise4()
+        public ReverseLinkedList()
         {
             Console.WriteLine("Exercise 4:");
             Console.WriteLine("Reverse a LinkedList");

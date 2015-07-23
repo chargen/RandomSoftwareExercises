@@ -39,21 +39,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercise4\Exercise4.cs" />
-    <Compile Include="Exercise3\Exercise3.cs" />
-    <Compile Include="Exercise1\Exercise1.cs" />
-    <Compile Include="Exercise2\Exercise2.cs" />
-    <Compile Include="Exercise2\Tree\Country.cs" />
-    <Compile Include="Exercise2\Tree\TreeDriver.cs" />
-    <Compile Include="Exercise2\Tree\TreeNode.cs" />
-    <Compile Include="Exercise4\LinkedList\LinkedList.cs" />
-    <Compile Include="Exercise9\Exercise9.cs" />
-    <Compile Include="Exercise8\Exercise8.cs" />
-    <Compile Include="Exercise7\Exercise7.cs" />
-    <Compile Include="Exercise6\Exercise6.cs" />
-    <Compile Include="Exercise5\Exercise5.cs" />
+    <Compile Include="ReverseLinkedList\ReverseLinkedList.cs" />
+    <Compile Include="ReturnNthLargestElementFromArray\ReturnNthLargestElementFromArray.cs" />
+    <Compile Include="RotateArrayByOnePos\RotateArrayByOnePos.cs" />
+    <Compile Include="SerializeTreeReconstruct\SerializeTreeReconstruct.cs" />
+    <Compile Include="SerializeTreeReconstruct\Tree\Country.cs" />
+    <Compile Include="SerializeTreeReconstruct\Tree\TreeDriver.cs" />
+    <Compile Include="SerializeTreeReconstruct\Tree\TreeNode.cs" />
+    <Compile Include="ReverseLinkedList\LinkedList\LinkedList.cs" />
+    <Compile Include="FindLgestSeqDescIncrInLargerSeq\FindLgestSeqDescIncrInLargerSeq.cs" />
+    <Compile Include="CountNumOneBitsInInteger\CountNumOneBitsInInteger.cs" />
+    <Compile Include="RvsWordsInSentence\RvsWordsInSentence.cs" />
+    <Compile Include="ImplCustomSubstring\ImplCustomSubstring.cs" />
+    <Compile Include="CalcSqrRtPerfectNonPerfectSquares\CalcSqrRtPerfectNonPerfectSquares.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExercisesToImplement.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

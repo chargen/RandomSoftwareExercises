@@ -1,0 +1,6 @@
+﻿-Translate Roman numerals into Arabic numbers (i.e., standard base 10). CCLXXXIII translates to 283, for example, while MCMLXXXVIII is 1,988. The shortest answer, written in the programming language Perl, provides a solution using just 82 symbols.
+--Read more: http://www.businessinsider.com/code-golf-the-strange-sport-google-employees-play-2015-7#ixzz3gjNwQ02H
+-Reading a clock face. A "clock face," created using ASCII symbols is inputted; the solution needs to translate it into the time shown. One solution on Stack Exchange, written in Python, uses 205 characters.
+--Read more: http://www.businessinsider.com/code-golf-the-strange-sport-google-employees-play-2015-7#ixzz3gjO0OxOT
+-Calculate the resistance of a resistor network. Like reading the clock face, the resistors are drawn using ASCII symbols. A solution on JAGC manages it in 279 symbols.
+--Read more: http://www.businessinsider.com/code-golf-the-strange-sport-google-employees-play-2015-7#ixzz3gjO2yBQw
