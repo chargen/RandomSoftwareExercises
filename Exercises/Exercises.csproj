@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Matrix\Matrix.cs" />
     <Compile Include="ReverseLinkedList\ReverseLinkedList.cs" />
     <Compile Include="ReturnNthLargestElementFromArray\ReturnNthLargestElementFromArray.cs" />
     <Compile Include="RotateArrayByOnePos\RotateArrayByOnePos.cs" />

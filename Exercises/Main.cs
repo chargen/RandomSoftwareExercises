@@ -10,17 +10,18 @@ namespace Exercises
     {
         public void Run()
         {
-            RunExercise1();
-            //RunExercise2();  //TODO complete
-            RunExercise3();
-            RunExercise4();
-            RunExercise5();
-            RunExercise6();
-            RunExercise7();
-            RunExercise8();
-            RunExercise9();
+            //RunExercise1();
+            ////RunExercise2();  //TODO complete
+            //RunExercise3();
+            //RunExercise4();
+            //RunExercise5();
+            //RunExercise6();
+            //RunExercise7();
+            //RunExercise8();
+            //RunExercise9();
+            RunExercise10();
         }
-
+        
         private void RunExercise1()
         {
             Exercise1.RotateArrayByOnePos e1 = new Exercise1.RotateArrayByOnePos();
@@ -65,6 +66,12 @@ namespace Exercises
         {
             Exercise9.FindLgestSeqDescIncrInLargerSeq e9 = new Exercise9.FindLgestSeqDescIncrInLargerSeq();
             e9.Run();
-        }        
+        }
+        private void RunExercise10()
+        {
+            Exercises.Matrix.Matrix m = new Exercises.Matrix.Matrix();
+            m.RunTotals();
+        }
+
     }
 }
