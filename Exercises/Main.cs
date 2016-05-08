@@ -10,15 +10,15 @@ namespace Exercises
     {
         public void Run()
         {
-            //RunExercise1();
+            RunExercise1();
             ////RunExercise2();  //TODO complete
-            //RunExercise3();
-            //RunExercise4();
-            //RunExercise5();
-            //RunExercise6();
-            //RunExercise7();
-            //RunExercise8();
-            //RunExercise9();
+            RunExercise3();
+            RunExercise4();
+            RunExercise5();
+            RunExercise6();
+            RunExercise7();
+            RunExercise8();
+            RunExercise9();
             RunExercise10();
         }
         

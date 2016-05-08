@@ -18,6 +18,7 @@ namespace Exercises.Exercise6
             Console.WriteLine("Implement custom substring");            
         }        
 
+        //TODO - implement this as a substring vs char arrays...faster or slower?
         public void Run()
         {
             Console.WriteLine("Starting Exercise 6...");  
