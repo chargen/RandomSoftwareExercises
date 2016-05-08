@@ -17,6 +17,7 @@ namespace Exercises.Exercise8
             Console.WriteLine("Counting the number of 1 bits in the binary representation of a given integer");            
         }        
 
+        //TODO - try this is a less c#-ish way...something that could be used in other languages :)
         public void Run()
         {
             Console.WriteLine("Starting Exercise 8...");  
