@@ -82,5 +82,36 @@ namespace RandomSoftwareExercises
 
             Console.WriteLine(row);
         }
+
+        //TODO - update this to handle non-even numbers
+        private static double Divide(double num1, double num2)
+        {
+            double result = 0;
+            double smallerValue = 0;
+            double biggerValue = 0;
+
+            if (num1 > num2)
+            {
+                smallerValue = num2;
+                biggerValue = num1;
+            }
+            else
+            {
+                smallerValue = num1;
+                biggerValue = num2;
+            }
+
+            int ctr = 0;
+            double total = 0;
+            while (total < biggerValue)
+            {
+                total = total + smallerValue;
+                ctr++;
+            }
+
+            result = ctr + (biggerValue - total);
+
+            return result;
+        }
     }
 }
