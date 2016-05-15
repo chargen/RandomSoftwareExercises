@@ -27,10 +27,12 @@ namespace Exercises.Exercise5
             while(curValue<= 200)
             {
                 double val = Math.Sqrt(curValue);
-                remainder = val % (double)Convert.ToInt32(val);
+                int valInt = Convert.ToInt32(val);
+                remainder = val % (double)valInt;
                 
                 Console.WriteLine("Value is : " + curValue);                
                 Console.WriteLine("Square root is : " + val);
+                Console.WriteLine("Remainer is : " + remainder);
 
                 if (remainder == 0)             
                     Console.WriteLine("Value is a perfect square");
