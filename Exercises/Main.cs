@@ -1,25 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercises
+﻿namespace Exercises
 {
     public class Main
     {
         public void Run()
         {
-            //RunExercise1();
-            ////RunExercise2();  //TODO complete
-            //RunExercise3();
-            //RunExercise4();
-            //RunExercise5();
-            //RunExercise6();
-            //RunExercise7();
-            //RunExercise8();
-            //RunExercise9();
+            RunExercise1();
+            //RunExercise2();  //TODO complete
+            RunExercise3();
+            RunExercise4();
+            RunExercise5();
+            RunExercise6();
+            RunExercise7();
+            RunExercise8();
+            RunExercise9();
             RunExercise10();
+            RunExercise11();
+            RunExercise12();
+            RunExercise13();
         }
         
         private void RunExercise1()
@@ -72,6 +69,20 @@ namespace Exercises
             Exercises.Matrix.Matrix m = new Exercises.Matrix.Matrix();
             m.RunTotals();
         }
-
+        private void RunExercise11()
+        {
+            Exercises.DivideWithoutModulosDivideSymbols.DivideWithoutModulosDivideSymbols d = new Exercises.DivideWithoutModulosDivideSymbols.DivideWithoutModulosDivideSymbols();
+            d.Run();
+        }
+        private void RunExercise12()
+        {
+            Exercises.PrintStairCase.PrintStairCase p = new Exercises.PrintStairCase.PrintStairCase();
+            p.Run();
+        }
+        private void RunExercise13()
+        {
+            Exercises.PrintPositiveNegativeZeroNumbers.PrintPositiveNegativeZeroNumbers p = new Exercises.PrintPositiveNegativeZeroNumbers.PrintPositiveNegativeZeroNumbers();
+            p.Run();
+        }
     }
 }

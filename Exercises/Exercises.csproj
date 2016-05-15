@@ -39,7 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DivideWithoutModulosDivideSymbols\DivideWithoutModulosDivideSymbols.cs" />
     <Compile Include="Matrix\Matrix.cs" />
+    <Compile Include="PrintPositiveNegativeZeroNumbers\PrintPositiveNegativeZeroNumbers.cs" />
+    <Compile Include="PrintStairCase\PrintStairCase.cs" />
     <Compile Include="ReverseLinkedList\ReverseLinkedList.cs" />
     <Compile Include="ReturnNthLargestElementFromArray\ReturnNthLargestElementFromArray.cs" />
     <Compile Include="RotateArrayByOnePos\RotateArrayByOnePos.cs" />
